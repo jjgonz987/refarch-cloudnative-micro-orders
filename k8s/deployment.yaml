@@ -54,7 +54,7 @@ spec:
             secretKeyRef:
               key: key
               name: bluecompute-hs256key
-        image: ibmcase/bluecompute-orders:0.6.0
+        image: __IMAGE__
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 6
