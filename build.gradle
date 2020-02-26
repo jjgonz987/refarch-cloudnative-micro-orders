@@ -51,6 +51,9 @@ dependencies {
     compile("org.springframework:spring-web")
     // end::jetty[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
+
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.6.1'
+    compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
     //testCompile("junit:junit")
     //testCompile("org.springframework.boot:spring-boot-starter-test")
 	compile('org.apache.kafka:kafka-clients:0.10.0.+')
